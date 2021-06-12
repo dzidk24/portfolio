@@ -29,12 +29,12 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'musicPlayer.jpg',
-    title: 'Music Player',
-    info: 'Technologies: Javascript and Reactjs.',
-    info2: 'Website provides a music player with a library ',
-    url: 'https://zen-music-player.netlify.app/',
-    repo: 'https://github.com/gbedk22/music-zone', // if no repo, the button will not show up
+    img: 'gameWorld.jpg',
+    title: 'Game Planet',
+    info: 'Technologies: Javascript, Reactjs and Redux.',
+    info2: 'Website provides informative data on video games. Axios is utilized to fetch external data and Redux in managing data of site. ',
+    url: 'https://game-planet.netlify.app/',
+    repo: 'https://github.com/dzidk24/gameworld', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -44,6 +44,15 @@ export const projectsData = [
     info2: 'Website provides up to date global and international covid 19 data. Axios is utilized to make multiple api requests which allow the user to view covid 19 data for each country. Chart.js library is integrated to provide a graphical presentation of covid data for each country.',
     url: 'https://covid19-port.netlify.app',
     repo: 'https://github.com/gbedk22/Covid19-Report', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'musicPlayer.jpg',
+    title: 'Music Player',
+    info: 'Technologies: Javascript and Reactjs.',
+    info2: 'Website provides a music player with a library ',
+    url: 'https://zen-music-player.netlify.app/',
+    repo: 'https://github.com/gbedk22/music-zone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -69,12 +78,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://linkedin.com/in/edwin-gbeddy-81867280',
+      url: 'https://www.linkedin.com/in/edward-gbeddy-2a6012190/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/gbedk22',
+      url: 'https://github.com/dzidk24',
     },
   ],
 };
@@ -83,3 +92,4 @@ export const footerData = {
 export const githubButtons = {
   isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
+

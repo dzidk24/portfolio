@@ -15,7 +15,7 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'edwinapplication@gmail.com'}
+              {cta || 'eddy2272@gmail.com'}
             </p>
            
           </div>
